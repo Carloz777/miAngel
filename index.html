@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Angel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f3e5f5; /* Light violet background */
+            text-align: center;
+        }
+
+        /* Cambia el header a un fondo violeta más fuerte */
+        header {
+            background-color: #6a1b9a; /* Violeta más fuerte */
+            color: white;
+            padding: 40px; /* Aumenta el padding */
+        }
+
+        header h1 {
+            font-size: 3em; /* Aumenta el tamaño del título */
+            margin: 0;
+        }
+
+        header .catalogs {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        header .catalogs a {
+            color: #333;
+            background-color: #ddd;
+            margin: 0 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        header .catalogs a:hover {
+            background-color: #a5d6a7; /* Light green hover */
+        }
+
+        .product-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px; /* Reduce el espacio entre las tarjetas */
+            padding: 40px;
+        }
+
+        .product-card {
+            background-color: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            text-align: center;
+            max-width: 200px;
+            margin: auto;
+        }
+
+        .product-card img {
+            width: 80px; /* Reduced image size */
+            height: auto;
+            margin: 10px 0;
+        }
+
+        .product-card h2 {
+            font-size: 1.1em;
+            margin: 10px 0 5px;
+        }
+
+        .product-card p {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .product-card .price {
+            font-size: 1.2em;
+            color: #4caf50; /* Matching green color for price */
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #7e57c2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer .social-links a {
+            margin: 0 10px;
+            color: white;
+            font-size: 1.5em;
+            text-decoration: none;
+        }
+
+        footer .address {
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mi Angel</h1>
+        <div class="catalogs">
+            <a href="#">Descargar Catálogo 1</a>
+            <a href="#">Descargar Catálogo 2</a>
+            <a href="#">Descargar Catálogo 3</a>
+        </div>
+    </header>
+
+    <div class="product-container">
+        <div class="product-card">
+            <img src="https://i.imgur.com/lClWUbf.png" alt="Producto 1">
+            <h2>Producto 1</h2>
+            <p>Descripción breve del producto 1.</p>
+            <div class="price">$10.00</div>
+        </div>
+        <div class="product-card">
+            <img src="https://i.imgur.com/ri9IoRp.png" alt="Producto 2">
+            <h2>Producto 2</h2>
+            <p>Descripción breve del producto 2.</p>
+            <div class="price">$20.00</div>
+        </div>
+        <div class="product-card">
+            <img src="https://i.imgur.com/fcaJVlO.png" alt="Producto 3">
+            <h2>Producto 3</h2>
+            <p>Descripción breve del producto 3.</p>
+            <div class="price">$30.00</div>
+        </div>
+        <div class="product-card">
+            <img src="https://i.imgur.com/ytIoDQB.png" alt="Producto 4">
+            <h2>Producto 4</h2>
+            <p>Descripción breve del producto 4.</p>
+            <div class="price">$40.00</div>
+        </div>
+        <div class="product-card">
+            <img src="https://i.imgur.com/HzHXL8n.png" alt="Producto 5">
+            <h2>Producto 5</h2>
+            <p>Descripción breve del producto 5.</p>
+            <div class="price">$50.00</div>
+        </div>
+        <div class="product-card">
+            <img src="https://i.imgur.com/QFmNUtR.png" alt="Producto 6">
+            <h2>Producto 6</h2>
+            <p>Descripción breve del producto 6.</p>
+            <div class="price">$60.00</div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+        </div>
+        <div class="address">
+            Dirección: 27 de abril 245 - local 1 Barrio centro. Córdoba Capital
+        </div>
+    </footer>
+
+</body>
+</html>
